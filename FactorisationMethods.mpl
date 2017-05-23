@@ -1,4 +1,4 @@
-#This is a Fermat Factorisation protocol.
+#This is a Fermat Factorisation protocol for use in Maple.
 
 FermatFact:=proc(n,iterations)
   local x,y,initial,sq:
@@ -15,3 +15,6 @@ FermatFact:=proc(n,iterations)
   fi: od:
   printf("No factors for n found after %d iterations\n",iterations):
 end proc:
+
+
+
